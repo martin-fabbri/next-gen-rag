@@ -1,79 +1,53 @@
-# advanced-rag
+# Next Generation Retrieval Augmented Generation (RAG)
 
-## Installation
+## Introduction
 
-Install the LangChain CLI if you haven't yet
+This is a collaborative hub dedicated to advancing the next generation of Retrieval Augmented Generation (RAG) technology. This repository is focused on the dynamic exploration of the evolving landscape of RAG, aiming to uncover, develop, and share the cutting-edge advancements that shape the future of AI-driven information retrieval and generation.
 
-```bash
-pip install -U langchain-cli
-```
+## Goals
+This repository embarks on a dynamic exploration of the evolving landscape of RAG, aiming to uncover, develop, and share the cutting-edge advancements that shape the future of AI-driven information retrieval and generation.
 
-## Adding packages
+## Goals
 
-```bash
-# adding packages from 
-# https://github.com/langchain-ai/langchain/tree/master/templates
-langchain app add $PROJECT_NAME
+The primary goals of this repository are:
 
-# adding custom GitHub repo packages
-langchain app add --repo $OWNER/$REPO
-# or with whole git string (supports other git providers):
-# langchain app add git+https://github.com/hwchase17/chain-of-verification
+- **Innovate and Explore**: To push the boundaries of current RAG technologies by exploring new concepts, methodologies, and architectures.
+- **Collaborative Research**: To foster a community of researchers, developers, and enthusiasts working together to advance the field of RAG.
+- **Knowledge Sharing**: To serve as a comprehensive resource for state-of-the-art developments, conceptual advancements, and insightful discussions on RAG and its applications.
+- **Real-world Impact**: To translate theoretical advancements into practical solutions that address real-world challenges in information retrieval and text generation.
 
-# with a custom api mount point (defaults to `/{package_name}`)
-langchain app add $PROJECT_NAME --api_path=/my/custom/path/rag
-```
+## Topics of Interest
 
-Note: you remove packages by their api path
+This repository focuses on a wide array of topics within the realm of RAG and related areas, including but not limited to:
 
-```bash
-langchain app remove my/custom/path/rag
-```
+- Semantic Search
+- Knowledge Integration
+- Advanced Query Processing
+- Transformer Models and Language Understanding
+- AI-driven Text Generation and Summarization
 
-## Setup LangSmith (Optional)
-LangSmith will help us trace, monitor and debug LangChain applications. 
-LangSmith is currently in private beta, you can sign up [here](https://smith.langchain.com/). 
-If you don't have access, you can skip this section
+## How to Contribute
 
+We welcome contributions of all forms from anyone interested in advancing RAG technology. Whether you're contributing ideas, code, documentation, or discussions, your input is invaluable. See the [CONTRIBUTING.md] file (todo: create and link CONTRIBUTING.md) for more details on how to get involved.
 
-```shell
-export LANGCHAIN_TRACING_V2=true
-export LANGCHAIN_API_KEY=<your-api-key>
-export LANGCHAIN_PROJECT=<your-project>  # if not specified, defaults to "default"
-```
+## Repository Structure
 
-## Launch LangServe
+- **Notebooks/**: Jupyter notebooks containing research, experiments, and demonstrations. Each notebook is self-contained with instructions and explanations.
+- **Docs/**: Additional documentation on concepts, techniques, and findings.
+- **Data/**: Sample datasets used for experimentation (todo: add datasets).
+- **Scripts/**: Utility scripts and code snippets (todo: add scripts).
 
-```bash
-langchain serve
-```
+## Getting Started
 
-## Running in Docker
+To get started with this repository:
 
-This project folder includes a Dockerfile that allows you to easily build and host your LangServe app.
+1. Clone the repo to your local machine.
+2. Navigate to the `Notebooks/` directory.
+3. Open a notebook to explore a specific concept or experiment.
 
-### Building the Image
+Note: Each notebook will guide you through installing necessary dependencies and setting up your environment.
 
-To build the image, you simply:
+## Roadmap
 
-```shell
-docker build . -t my-langserve-app
-```
-
-If you tag your image with something other than `my-langserve-app`,
-note it for use in the next step.
-
-### Running the Image Locally
-
-To run the image, you'll need to include any environment variables
-necessary for your application.
-
-In the below example, we inject the `OPENAI_API_KEY` environment
-variable with the value set in my local environment
-(`$OPENAI_API_KEY`)
-
-We also expose port 8080 with the `-p 8080:8080` option.
-
-```shell
-docker run -e OPENAI_API_KEY=$OPENAI_API_KEY -p 8080:8080 my-langserve-app
-```
+- [ ] Establish initial set of notebooks covering foundational RAG concepts.
+- [ ] Expand the repository to include advanced topics and new research findings.
