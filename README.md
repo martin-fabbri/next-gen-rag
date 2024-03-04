@@ -25,6 +25,7 @@ This repository focuses on a wide array of topics within the realm of RAG and re
 - Advanced Query Processing
 - Ranking
   - [Strategies for Effective and Efficient Text Ranking Using Large Language Models](https://blog.reachsumit.com/posts/2023/12/towards-ranking-aware-llms/)
+  - [Training an LLM Re-ranker using Direct Preference Optimization](https://medium.com/@venkat.ramrao/training-an-llm-re-ranker-using-direct-preference-optimization-981c732e92b0)
 - Security:
   -   (todo: add exploration thread)[ComPromptMized: Unleashing Zero-click Worms that Target GenAI-Powered Applications](https://sites.google.com/view/compromptmized) 
 
@@ -37,5 +38,6 @@ This repository focuses on a wide array of topics within the realm of RAG and re
 
 ## Roadmap
 
-- [ ] Establish initial set of notebooks covering foundational RAG concepts.
-- [ ] Expand the repository to include advanced topics and new research findings.
+- [ ] LLM Re-ranker Using Human Feedback
+- [ ] Security: Gen-AI Zero-click Worms
+- [ ] Less is More: Prepare Function Calling Dataset
