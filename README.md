@@ -23,6 +23,8 @@ This repository focuses on a wide array of topics within the realm of RAG and re
 - Semantic Routing
 - Knowledge Integration
 - Advanced Query Processing
+- Ranking
+  - [Strategies for Effective and Efficient Text Ranking Using Large Language Models](https://blog.reachsumit.com/posts/2023/12/towards-ranking-aware-llms/)
 - Security:
   -   (todo: add exploration thread)[ComPromptMized: Unleashing Zero-click Worms that Target GenAI-Powered Applications](https://sites.google.com/view/compromptmized) 
 
