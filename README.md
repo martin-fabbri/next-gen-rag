@@ -20,7 +20,7 @@ The primary goals of this repository are:
 
 This repository focuses on a wide array of topics within the realm of RAG and related areas, including but not limited to:
 
-- Semantic Search
+- Semantic Routing
 - Knowledge Integration
 - Advanced Query Processing
 - Security:
