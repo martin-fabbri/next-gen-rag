@@ -23,8 +23,8 @@ This repository focuses on a wide array of topics within the realm of RAG and re
 - Semantic Search
 - Knowledge Integration
 - Advanced Query Processing
-- Transformer Models and Language Understanding
-- AI-driven Text Generation and Summarization
+- Security:
+  -   [ComPromptMized: Unleashing Zero-click Worms that Target GenAI-Powered Applications](https://sites.google.com/view/compromptmized) 
 
 ## How to Contribute
 
