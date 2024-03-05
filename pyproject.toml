@@ -1,8 +1,11 @@
+[virtualenvs]
+in-project = true
+
 [tool.poetry]
-name = "advanced-rag"
+name = "next-gen-rag"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Martin Fabbri <martin@fabbri.ai>"]
 readme = "README.md"
 packages = [
     { include = "app" },
@@ -19,10 +22,12 @@ tiktoken = "^0.6.0"
 chromadb = "^0.4.23"
 langchain = "^0.1.9"
 bs4 = "^0.0.2"
+llama-cpp-python = "^0.2.55"
 
 
 [tool.poetry.group.dev.dependencies]
 langchain-cli = ">=0.0.15"
+ipykernel = "^6.29.3"
 
 [build-system]
 requires = ["poetry-core"]
