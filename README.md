@@ -39,6 +39,10 @@ This repository focuses on a wide array of topics within the realm of RAG and re
 - **data/**: Sample datasets used for experimentation (todo: add datasets).
 - **scripts/**: Utility scripts and code snippets (todo: add scripts).
 
+## In Progress
+- [] Best in class ReRanker? [Boost Your Search With The Crispy mixedbread Rerank Models
+](https://www.mixedbread.ai/blog/mxbai-rerank-v1)
+
 ## Roadmap
 
 - [ ] LLM Re-ranker Using Human Feedback
