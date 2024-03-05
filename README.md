@@ -41,4 +41,4 @@ This repository focuses on a wide array of topics within the realm of RAG and re
 
 - [ ] LLM Re-ranker Using Human Feedback
 - [ ] Security: Gen-AI Zero-click Worms
-- [ ] Less is More: Prepare Function Calling Dataset
+- [ ] Less is More: Specially in the context of preparing a Function Calling Dataset [https://arxiv.org/abs/2305.11206](LIMA)
