@@ -20,34 +20,24 @@ The primary goals of this repository are:
 
 This repository focuses on a wide array of topics within the realm of RAG and related areas, including but not limited to:
 
-- Semantic Search
+- Semantic Routing
 - Knowledge Integration
 - Advanced Query Processing
-- Transformer Models and Language Understanding
-- AI-driven Text Generation and Summarization
-
-## How to Contribute
-
-We welcome contributions of all forms from anyone interested in advancing RAG technology. Whether you're contributing ideas, code, documentation, or discussions, your input is invaluable. See the [CONTRIBUTING.md] file (todo: create and link CONTRIBUTING.md) for more details on how to get involved.
+- Ranking
+  - [Strategies for Effective and Efficient Text Ranking Using Large Language Models](https://blog.reachsumit.com/posts/2023/12/towards-ranking-aware-llms/)
+  - [Training an LLM Re-ranker using Direct Preference Optimization](https://medium.com/@venkat.ramrao/training-an-llm-re-ranker-using-direct-preference-optimization-981c732e92b0)
+- Security:
+  -   (todo: add exploration thread)[ComPromptMized: Unleashing Zero-click Worms that Target GenAI-Powered Applications](https://sites.google.com/view/compromptmized) 
 
 ## Repository Structure
 
-- **Notebooks/**: Jupyter notebooks containing research, experiments, and demonstrations. Each notebook is self-contained with instructions and explanations.
-- **Docs/**: Additional documentation on concepts, techniques, and findings.
-- **Data/**: Sample datasets used for experimentation (todo: add datasets).
-- **Scripts/**: Utility scripts and code snippets (todo: add scripts).
-
-## Getting Started
-
-To get started with this repository:
-
-1. Clone the repo to your local machine.
-2. Navigate to the `Notebooks/` directory.
-3. Open a notebook to explore a specific concept or experiment.
-
-Note: Each notebook will guide you through installing necessary dependencies and setting up your environment.
+- **notebooks/**: Jupyter notebooks containing research, experiments, and demonstrations. Each notebook is self-contained with instructions and explanations.
+- **docs/**: Additional documentation on concepts, techniques, and findings.
+- **data/**: Sample datasets used for experimentation (todo: add datasets).
+- **scripts/**: Utility scripts and code snippets (todo: add scripts).
 
 ## Roadmap
 
-- [ ] Establish initial set of notebooks covering foundational RAG concepts.
-- [ ] Expand the repository to include advanced topics and new research findings.
+- [ ] LLM Re-ranker Using Human Feedback
+- [ ] Security: Gen-AI Zero-click Worms
+- [ ] Less is More: Prepare Function Calling Dataset
