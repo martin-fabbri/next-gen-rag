@@ -40,8 +40,10 @@ This repository focuses on a wide array of topics within the realm of RAG and re
 - **scripts/**: Utility scripts and code snippets (todo: add scripts).
 
 ## In Progress
-- [] Best in class ReRanker? [Boost Your Search With The Crispy mixedbread Rerank Models
-](https://www.mixedbread.ai/blog/mxbai-rerank-v1)
+- [x] Best in class ReRanker? [Boost Your Search With The Crispy mixedbread Rerank Models](https://www.mixedbread.ai/blog/mxbai-rerank-v1)
+
+- [ ] [Matryoshka Embedding Model](https://www.mixedbread.ai/blog/mxbai-embed-2d-large-v1)
+
 
 ## Roadmap
 
