@@ -45,6 +45,8 @@ This repository focuses on a wide array of topics within the realm of RAG and re
 - [ ] [Matryoshka Embedding Model](https://www.mixedbread.ai/blog/mxbai-embed-2d-large-v1)
 - [ ] [qdrant / fastembed] (https://github.com/qdrant/fastembed)
 
+## Backlog
+- [ ] [CohereForAI/c4ai-command-r-v01 (Cohere's 35 billion parameter model)](https://huggingface.co/CohereForAI/c4ai-command-r-v01)
 
 ## Roadmap
 
