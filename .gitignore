@@ -106,3 +106,6 @@ venv.bak/
 
 # llm local models
 *.gguf
+
+# training checkpoints
+checkpoints/
